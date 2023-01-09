@@ -6,9 +6,8 @@
   margin: 0 auto;
   width: 50%;
 }*/
-#header {
+/* #header {
     text-align: right;
-    /* position: fixed; */
     position: relative;
     margin: 0px;
     padding: 0px;
@@ -33,10 +32,6 @@
 }
 #header > ul{
     color: #ffffff;
-    /* margin: 15px; 
-     padding: 20px; 
-    padding-top: 5px;
-    padding-right: 35px; */
     list-style: none;
     width: 90%;
     max-width: 100%;
@@ -52,9 +47,6 @@
     font-family: 'Nanum Gothic', sans-serif;
 
 }
-/* header > ul a {
-    color: #363636; 
-} */
 #header > ul a:hover {
     color: #e0984a;
     text-decoration: none;
@@ -355,5 +347,183 @@
     background-color: #dfb98f;
 }
 .progressBar6::-moz-progress-bar {
+    background-color: #dfb98f;
+} */
+header{
+    padding: 5px 0px;
+    background-color: rgba(128, 128, 128, 0.3);
+    position:fixed;
+    width: 100%;
+    margin-top: 10px;
+    
+
+}
+@media all and (min-width: 805px){
+    .progressBar {
+        width: 300px;
+    }
+    .itd_srills_container{
+        height: 600px;
+    }
+}
+@media all and (max-width: 800px) {
+    header {
+    text-align: center;
+    }
+    .header_itd {
+        padding-top: 0px;
+    }
+    .progressBar {
+    background-color: #dfb98f;
+    width: 200px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    }
+    .itd_srills_container{
+        height: 1000px;
+    }
+}
+@media all and (max-width: 500px) {
+    header {
+    font-size: 10px;
+    }
+    .header_itd {
+        padding-top: 0px;
+    }
+    .progressBar {
+    background-color: #dfb98f;
+    width: 200px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    }
+    .itd_srills_container{
+        height: 1000px;
+    }
+}
+* {
+    box-sizing: border-box;
+
+}
+.header_itd {
+    padding-top: 12px;
+}
+.itd_header{
+    color: #ffffff;
+    list-style: none;
+    text-decoration: none;
+    width: 90%;
+    max-width: 100%;
+    padding: 0px 25px;
+    font-size: 100%;
+
+    
+}
+.itd_logo{
+    background-image: url(/Users/nastasya/Desktop/portfolio/CSS/img/Logo_DK_wite.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 3px;
+    width: 100%;
+    height: 100%;
+}
+.itd_header:hover {
+    color: #e0984a;
+    text-decoration: none;
+    
+}
+.itd_name_container {
+    background-image: url(/Users/nastasya/Desktop/portfolio/CSS/img/back_1.png);
+    width: 100%;
+    height: 600px;
+    padding-top: 0px;
+    background-size: auto;
+    background-size: cover;
+    
+} 
+.name_text {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #f0f0f0;
+    text-decoration: none;
+    font-style:normal;
+    font-weight: normal;
+    margin-top: 200px;
+    font-size: 70px;
+}
+.name_text2 {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #f0f0f0;
+    text-decoration: none;
+    font-style:normal;
+    font-weight: normal;
+    font-size: 25px;
+    margin-left: 3px;
+}
+.itd_about_container{
+    height: 500px;
+    background-color: #fbf8f3;
+
+}
+.about_h3{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #383838;
+    text-decoration: none;
+    font-style:normal;
+    font-weight: normal;
+    margin-top: 20px;
+    
+}
+.itd_about_text{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #383838;
+    text-decoration: none;
+    font-style:normal;
+    font-weight: normal;
+    margin-top: 20px;
+    text-align: justify;
+    width: 1000px;
+}
+.itd_srills_container{
+
+    background-color: #ffedcc;
+}
+.skills_h3{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #383838;
+    text-decoration: none;
+    font-style:normal;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.fotoItMe{
+    margin-top: 100px;
+}
+.itd_skills_text1{
+    margin-top: 50px;
+    
+}
+.itd_skills_text2{
+    margin-top: 30px;
+}
+.itd_skills_text3{
+    margin-top: 15px;
+}
+.progressBar {
+    background-color: #dfb98f;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+.progressBar::-webkit-progress-bar {
+    background-color: #ffffff;
+}
+.progressBar::-webkit-progress-value {
+    background-color: #dfb98f;
+}
+.progressBar::-moz-progress-bar {
     background-color: #dfb98f;
 }
